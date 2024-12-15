@@ -1,0 +1,19 @@
+.card:hover{
+    transform: scale(110%);
+    background-color: #1372f7;
+    transition: 0.2s;
+    color: white;
+    border-radius: 8px;
+  }
+  a.data {
+    text-decoration: none;
+    color: inherit; 
+}
+
+a.data:active {
+    text-decoration: none;
+    color: inherit; 
+    outline: none; 
+}
+
+  
