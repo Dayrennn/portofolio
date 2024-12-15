@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(wallpaper.jpg);    
+    background-position: center;
+    background-size: cover;
+}
+.container-lg{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 440px;
+    height: 480px;
+    padding: 30px;
+}
+.login{
+    text-align: center;
+    margin: 40px 0 40px 0;
+}
+.login header{
+    color: white;
+    font-size: 40px;
+    font-weight: 600px;
+}
+.container-lg .control {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 25px;
+    font-size: 17px;
+    padding: 0 25px;
+    border-radius: 35px;
+    border: none;
+    box-shadow: 0px 5px 10px rgba(91, 25, 236, 0.2);
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s;
+}
+::placeholder{
+    font-weight: 500;
+    color: grey;
+}
+.control:focus{
+    transform: scale(110%);
+}
+.forgot {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+section {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    color: white;
+}
+#check {
+    margin-right: 10px;
+}
+.a {
+    text-decoration: none;
+}
+
+a::hover{
+    text-decoration: underline;
+    color: blue;
+}
+.section a{
+    color: white;
+}
+.register {
+    position: relative;
+    text-align: center;
+    top: 20px;
+    font-size: 17px;
+}
+
+.submitbtn {
+    width: 100%;
+    height: 60px;
+    background: blue;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: .3s;
+}
+.submitbtn label{
+    position: relative;
+    top: 32%;
+    left: 40%;
+    color: white;
+    -webkitanimation: translate(-50%, -50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.submitbtn:hover {
+    background-color: darkblue;
+    transform: scale(110%);
+}
+.wrapper{
+    width: 440px;
+    height: 540px;
+    background: transparent;
+    color: white;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+}
