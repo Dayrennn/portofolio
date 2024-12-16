@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.css">
+</head>
+<body>
+  <div class="content">
+    <div class="container mt-5">
+      <h2 class="text-center mb-4">Tabel Data</h2>
+      <div class="table-responsive">
+          <table class="table table-bordered table-striped text-center">
+              <thead class="table-primary">
+                  <tr>
+                      <th rowspan="2" class="align-middle"></th>
+                      <th colspan="12">Bulan</th>
+                  </tr>
+                  <tr>
+                      <th>Januari</th>
+                      <th>Februari</th>
+                      <th>Maret</th>
+                      <th>April</th>
+                      <th>Mei</th>
+                      <th>Juni</th>
+                      <th>Juli</th>
+                      <th>Agustus</th>
+                      <th>September</th>
+                      <th>Oktober</th>
+                      <th>November</th>
+                      <th>Desember</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <th>2022</th>
+                      <td>4.017</td>
+                      <td>6.135</td>
+                      <td>7.091</td>
+                      <td>5.841</td>
+                      <td>5.036</td>
+                      <td>4.547</td>
+                      <td>3.467</td>
+                      <td>3.970</td>
+                      <td>6.313</td>
+                      <td>3.595</td>
+                      <td>9.207</td>
+                      <td>5.945</td>
+                  </tr>
+                  <tr>
+                      <th>2023</th>
+                      <td>2.416</td>
+                      <td>4.136</td>
+                      <td>7.935</td>
+                      <td>8.004</td>
+                      <td>9.505</td>
+                      <td>5.026</td>
+                      <td>6.108</td>
+                      <td>6.343</td>
+                      <td>9.404</td>
+                      <td>9.280</td>
+                      <td>9.287</td>
+                      <td>8.689</td>
+                  </tr>
+              </tbody>
+          </table>
+      </div>
+  </div>
+  <div class="container-lg">
+    <div class="card">
+      <h5 class="card-header">Featured</h5>
+      <div class="card-body">
+        <div id="chart1"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
+<script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+<script src="bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+<script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+<script src="apexcharts-bundle/dist/apexcharts.js"></script>
+<script>
+     var options = {
+          series: [{
+          name: '2022',
+          data: [4017, 6135, 7091, 5841, 5036, 4547, 3467, 3970, 6313, 3595, 9207, 5945]
+        }, {
+          name: '2023',
+          data: [2416, 4136, 7835, 8004, 9505, 5026, 6108, 6343, 9404, 9280, 9287, 8689]
+        }], 
+          chart: {
+          type: 'bar',
+          height: 750
+        },
+        plotOptions: {
+          bar: {
+            horizontal: false,
+            columnWidth: '55%',
+            borderRadius: 5,
+            borderRadiusApplication: 'end'
+          },
+        },
+        dataLabels: {
+          enabled: false
+        },
+        stroke: {
+          show: true,
+          width: 1,
+          colors: ['transparent']
+        },
+        xaxis: {
+          categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Des'],
+        },
+        yaxis: {
+          title: {
+            text: 'barang'
+          }
+        },
+        fill: {
+          opacity: 1
+        },
+        tooltip: {
+          y: {
+            formatter: function (val) {
+              return " " + val + " terjual"
+            }
+          }
+        }
+        };
+
+        var chart = new ApexCharts(document.querySelector("#chart1"), options);
+        chart.render();
+</script>
