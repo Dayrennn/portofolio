@@ -1,0 +1,39 @@
+.hero-section {
+  height: 100vh;
+  background-image: url("../assets/background.jpg");
+  background-size: cover;
+  background-position: top;
+  background-position: no-repeat;
+}
+.hero-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45); /* gelap tapi elegan */
+  z-index: 1;
+}
+.hero-content {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  color: #fff;
+  max-width: 700px;
+  margin: auto;
+}
+.hero-tittle {
+  font-size: 42px;
+}
+.hero-tittle span {
+  color: rgb(1, 93, 179);
+}
+.hero-desc {
+  font-size: 19px;
+  opacity: 0.9;
+  line-height: 1.6;
+}

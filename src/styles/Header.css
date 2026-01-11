@@ -1,0 +1,35 @@
+.navbar {
+  height: 100px;
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  font-family: Verdana;
+}
+.Navbar-Brand {
+  font-size: 30px;
+}
+.Navbar-Brand span {
+  color: rgb(1, 93, 179);
+}
+.nav-underline .nav-link {
+  border-bottom: none !important;
+  position: relative;
+  padding-bottom: 6px;
+}
+.nav-underline .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(1, 93, 179);
+  transition: width 0.3s ease;
+}
+.nav-underline .nav-link:hover::after {
+  width: 100%;
+  background-color: rgb(1, 93, 179);
+}
