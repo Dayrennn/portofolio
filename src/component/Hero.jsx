@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Hero.css";
+import ButtonConfirm from "./Buttons/ButtonCnfrm";
 
 function Hero() {
   return (
@@ -17,6 +18,10 @@ function Hero() {
             quos, temporibus at soluta vitae aliquam harum error officia rerum!
             Labore, quia.
           </p>
+          <div className="hero-buttons">
+            <ButtonConfirm>Lihat Portofolio</ButtonConfirm>
+            <ButtonConfirm variant="outline">Hubungi Saya</ButtonConfirm>
+          </div>
         </div>
       </section>
     </>

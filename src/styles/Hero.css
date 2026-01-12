@@ -1,12 +1,14 @@
 .hero-section {
+  position: relative;
   height: 100vh;
   background-image: url("../assets/background.jpg");
   background-size: cover;
   background-position: top;
-  background-position: no-repeat;
+  background-repeat: no-repeat;
 }
 .hero-section::before {
   content: "";
+  height: 100vh;
   position: absolute;
   inset: 0;
   background: rgba(0, 0, 0, 0.45); /* gelap tapi elegan */
@@ -36,4 +38,41 @@
   font-size: 19px;
   opacity: 0.9;
   line-height: 1.6;
+}
+.btn-confirm {
+  padding: 12px 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 10px;
+}
+
+/* Button default (kiri) */
+.btn-confirm {
+  background-color: white;
+  color: #2c3e50;
+  border: none;
+}
+
+/* Button transparan (kanan) */
+.btn-confirm.btn-outline {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+/* Hover untuk transparan */
+.btn-confirm.btn-outline:hover {
+  background-color: white;
+  color: #2c3e50;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover untuk default */
+.btn-confirm:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }

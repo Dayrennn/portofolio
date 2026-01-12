@@ -187,3 +187,86 @@
   width: 0;
   transition: width 1.5s ease;
 }
+/* =========================
+   RESPONSIVE BREAKPOINTS
+========================= */
+
+/* Tablet (<= 992px) */
+@media (max-width: 992px) {
+  .about-content {
+    gap: 30px;
+  }
+
+  .section-title h2 {
+    font-size: 2.2rem;
+  }
+
+  .about-text h3 {
+    font-size: 1.6rem;
+  }
+}
+
+/* Mobile (<= 768px) */
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+    margin: 20px auto;
+    padding: 0 15px;
+  }
+
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-img {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .about-text {
+    width: 100%;
+  }
+
+  .about-text h3 {
+    font-size: 1.5rem;
+  }
+
+  .about-text p {
+    font-size: 0.95rem;
+  }
+
+  .skill-name {
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+    padding: 14px;
+  }
+}
+
+/* Small Mobile (<= 480px) */
+@media (max-width: 480px) {
+  .section-title h2 {
+    font-size: 1.8rem;
+  }
+
+  .section-title h2::after {
+    width: 50px;
+    height: 3px;
+  }
+
+  .about-img {
+    max-width: 240px;
+  }
+
+  .about-text h3 {
+    font-size: 1.3rem;
+  }
+
+  .about-text p {
+    font-size: 0.9rem;
+  }
+}

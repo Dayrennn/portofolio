@@ -1,6 +1,6 @@
 import React from "react";
 import profileImg from "../assets/profile.jpg";
-import ButtonConfirm from "./ButtonCnfrm";
+import ButtonConfirm from "./Buttons/ButtonCnfrm";
 
 import "../styles/About.css";
 import Skills from "./Skill";

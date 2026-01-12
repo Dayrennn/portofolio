@@ -1,3 +1,4 @@
+import React from "react";
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";
@@ -13,7 +14,6 @@ function Header() {
       {["sm"].map((expand) => (
         <Navbar
           className="navbar"
-          bg="body"
           data-bs-theme="light"
           expand="md"
           fixed="top"
