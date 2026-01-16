@@ -3,9 +3,12 @@
 Ini adalah project portofolio web berbasis React.js yang sedang saya kembangkan untuk menampilkan kemampuan frontend development, sekaligus sebagai dokumentasi perjalanan belajar React dan fullstack development.
 
 Project ini masih dalam tahap pengembangan, sehingga beberapa fitur dan halaman belum selesai.
-Namun project ini sudah bisa di akses melalui Vercel, berikut link nya
+Namun project ini sudah bisa di akses melalui Vercel, berikut link nya :
 
+```bash
 portofolio-vert-one-82.vercel.app
+
+```
 
 Project Purpose
 
