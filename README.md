@@ -19,8 +19,7 @@ Project Purpose
 5. Menyusun project React dengan struktur yang rapi dan scalable
 6. Menjadi dokumentasi kemampuan frontend / fullstack development
 
-Features (Planned / In Progress)
-Beberapa fitur yang sudah dikembangkan dan rencana pengembangan:
+Bagian - bagian dari portofolio :
 
 1. Homepage / Landing Page
    Tampilan awal dengan informasi singkat tentang saya
@@ -39,16 +38,10 @@ Tech Stack
 4. React Router (untuk navigasi antar halaman)
 5. Vite / Create React App (sesuai setup)
 
-Project Status
-
-1. In Progress – Learning / Development Phase
-2. Project ini masih dikembangkan dan dapat berubah seiring penambahan fitur dan peningkatan skill.
-
 Notes
 
 1. Project ini dibuat untuk tujuan pembelajaran dan portofolio
-2. Beberapa fitur masih belum selesai
-3. Backend (jika diperlukan) akan ditambahkan di fase selanjutnya
+2. Sudah di deploy
 
 Author
 
