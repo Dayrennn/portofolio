@@ -1,12 +1,15 @@
+import React from "react";
 import Button from "react-bootstrap/Button";
 
-function ButtonConfirm({ children, variant }) {
+function ButtonConfirm({ children, onClick, variant, type = "button" }) {
   return (
-    <>
-      <Button className={`btn-confirm ${variant ? `btn-${variant}` : ""}`}>
-        {children}
-      </Button>
-    </>
+    <button
+      className={`btn ${variant === "outline" ? "btn-outline" : ""}`}
+      onClick={onClick} // pastikan onClick diteruskan
+      type={type}
+    >
+      {children}
+    </button>
   );
 }
 

@@ -141,3 +141,55 @@ section {
   color: var(--gray);
   font-size: 0.9rem;
 }
+/* Tambahkan ke file Project.css */
+
+/* Portfolio Tags */
+.portofolio-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 15px 0;
+}
+
+.portofolio-tag {
+  background-color: var(--secondary);
+  color: white;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  transition: var(--transition);
+}
+
+.portofolio-tag:hover {
+  background-color: var(--primary);
+  transform: translateY(-2px);
+}
+
+/* Portfolio Button */
+.portofolio-btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 15px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.portofolio-btn:hover {
+  background: var(--primary);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .portofolio-tags {
+    gap: 5px;
+  }
+
+  .portofolio-tag {
+    padding: 4px 10px;
+    font-size: 0.75rem;
+  }
+}

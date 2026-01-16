@@ -2,12 +2,12 @@ import React from "react";
 import "../styles/About.css";
 
 const skills = [
-  { name: "HTML/CSS", level: 85 },
-  { name: "Javascript", level: 70 },
-  { name: "Laravel", level: 85 },
-  { name: "PHP", level: 95 },
-  { name: "React", level: 30 },
-  { name: "Bootstrap", level: 70 },
+  { name: "HTML, CSS, Javascript", level: 70 },
+  { name: "Typescript", level: 50 },
+  { name: "Laravel", level: 75 },
+  { name: "Express.js", level: 50 },
+  { name: "React", level: 65 },
+  { name: "Bootstrap", level: 60 },
 ];
 
 function Skills() {

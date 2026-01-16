@@ -1,0 +1,236 @@
+/* NotFound.css */
+.not-found-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  padding: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.not-found-content {
+  background: white;
+  border-radius: 16px;
+  padding: 3rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+}
+
+.error-animation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.error-digit {
+  font-size: 5rem;
+  font-weight: 900;
+  color: #3498db;
+  text-shadow: 3px 3px 0 rgba(52, 152, 219, 0.2);
+  animation: bounce 2s infinite;
+}
+
+.error-digit:nth-child(1) {
+  animation-delay: 0s;
+}
+.error-digit:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.error-zero {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  animation: rotate 15s linear infinite;
+}
+
+.zero-circle {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 8px solid #e74c3c;
+  border-radius: 50%;
+  border-top-color: transparent;
+  border-right-color: transparent;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.error-title {
+  color: #2c3e50;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.error-message {
+  color: #7f8c8d;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.action-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.btn-home,
+.btn-back,
+.btn-github {
+  padding: 0.8rem 1.5rem;
+  border-radius: 50px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.btn-home {
+  background: #3498db;
+  color: white;
+}
+
+.btn-back {
+  background: #ecf0f1;
+  color: #2c3e50;
+}
+
+.btn-github {
+  background: transparent;
+  color: #3498db;
+  border: 2px solid #3498db;
+}
+
+.btn-home:hover {
+  background: #2980b9;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3);
+}
+
+.btn-back:hover {
+  background: #d5dbdb;
+  transform: translateY(-3px);
+}
+
+.btn-github:hover {
+  background: #3498db;
+  color: white;
+  transform: translateY(-3px);
+}
+
+.btn-icon {
+  font-size: 1.2rem;
+}
+
+.suggestions {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid #eee;
+}
+
+.suggestions p {
+  color: #7f8c8d;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.available-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.available-links a {
+  color: #3498db;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  background: #ecf0f1;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.available-links a:hover {
+  background: #3498db;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.footer-info {
+  margin-top: 2rem;
+  text-align: center;
+  color: #7f8c8d;
+  font-size: 0.9rem;
+}
+
+.footer-info p {
+  margin: 0.3rem 0;
+}
+
+.error-code {
+  font-weight: 600;
+  color: #e74c3c;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .not-found-content {
+    padding: 2rem;
+  }
+
+  .error-digit {
+    font-size: 4rem;
+  }
+
+  .error-zero {
+    width: 60px;
+    height: 60px;
+  }
+
+  .error-title {
+    font-size: 1.8rem;
+  }
+
+  .action-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .btn-home,
+  .btn-back,
+  .btn-github {
+    justify-content: center;
+  }
+}

@@ -14,20 +14,20 @@ function Footer() {
           Porto<span>folio</span>
         </a>
         <div className="social-links">
-          <a href="#">
+          <a href="www.linkedin.com/in/rafly-ramandha-kusuma-214a36353">
             <MdiLinkedin icon="mdi:linkedin" width="24" height="24" />
           </a>
-          <a href="#">
+          <a href="https://github.com/Dayrennn">
             <MingcuteGithubLine
               icon="mingcute:github-line"
               width="24"
               height="24"
             />
           </a>
-          <a href="#">
+          <a href="https://www.instagram.com/dayrennn">
             <MdiInstagram icon="mdi:instagram" width="24" height="24" />
           </a>
-          <a href="#">
+          <a href="https://wa.me/6281218547384">
             <IcBaselineWhatsapp
               icon="ic:baseline-whatsapp"
               width="24"
