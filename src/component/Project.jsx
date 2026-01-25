@@ -54,7 +54,7 @@ function Portfolio() {
       alt: "comingsoon",
       title: "Sistem Siswa Terbaik",
       description:
-        "Sistem ini merupakan project <b>skripsi</b> yang masih dalam tahap <b>pengembangan</b>, untuk tampilan telah direncanakan menggunakan react.js dengan backend NestJS dengan bahasa TypeScript",
+        "Sistem ini merupakan project <b>skripsi</b> yang masih dalam tahap <b>pengembangan</b>, untuk tampilan telah direncanakan menggunakan react.js dengan backend Node.js dengan bahasa TypeScript",
       tags: ["React.js", "TypeScript", "Node.js"],
       githubUrl: "/404",
     },
