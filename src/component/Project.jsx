@@ -15,7 +15,7 @@ function Portfolio() {
       title: "Sistem Informasi Pergudangan",
       description:
         "Sistem yang dibuat untuk PT.Trimitra Abadi Lestari dengan manajemen inventory real-time serta notifikasi untuk stok hampir habis",
-      tags: ["Laravel", "MySQL", "Bootstrap"],
+      tags: ["PHP", "MySQL", "Bootstrap"],
       githubUrl: "https://github.com/Dayrennn/Sistem-Pergudangan",
     },
     {
@@ -35,7 +35,7 @@ function Portfolio() {
       title: "Sistem Cuci Motor",
       description:
         "Sistem ini masih tahap <b>pengembangan</b>, sistem ini sudah menggunakan react.js dengan rencana menggunakan bahasa backend golang.",
-      tags: ["React.js", "Golang", "Tailwind CSS"],
+      tags: ["React.js", "Golang", "Bootstrap"],
       githubUrl: "https://github.com/Dayrennn/cuci-motor",
     },
     {
@@ -45,7 +45,7 @@ function Portfolio() {
       title: "Avalanche dApp",
       description:
         "Sistem ini dibuat dengan mengikuti webinar yang di selenggarakan oleh avalanche. Project ini sudah di tahap UI namun masih berlanjut untuk backend nya.",
-      tags: ["Web3", "Solidity", "React.js"],
+      tags: ["Web3", "Express.js", "Nest.js"],
       githubUrl: "https://github.com/Dayrennn/Webinar-Fullstack-dApps/day-3",
     },
     {
