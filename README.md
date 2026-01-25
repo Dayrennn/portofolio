@@ -36,7 +36,7 @@ Tech Stack
 2. JavaScript (ES6+)
 3. HTML5 & CSS3
 4. React Router (untuk navigasi antar halaman)
-5. Vite / Create React App (sesuai setup)
+5. Vite / Create React App
 
 Notes
 
