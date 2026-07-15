@@ -1,7 +1,6 @@
 import React from 'react';
 import trimitra from '../assets/trimitra.jpg';
 import endaymotor from '../assets/endaymotor.jpg';
-import endaycuci from '../assets/endaycuci.jpg';
 import dapps from '../assets/dapps.jpg';
 import comingsoon from '../assets/comingsoon.jpg';
 import gateplus from '../assets/gateplus.jpg';
