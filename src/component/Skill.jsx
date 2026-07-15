@@ -3,12 +3,12 @@ import "../styles/About.css";
 
 const skills = [
   { name: "HTML, CSS, Javascript", level: 80 },
-  { name: "Typescript", level: 60 },
-  { name: "React.js", level: 65 },
-  { name: "Golang", level: 65 },
-  { name: "Bootstrap", level: 70 },
+  { name: "Typescript", level: 50 },
+  { name: "Next.js", level: 80 },
+  { name: "Golang", level: 50 },
+  { name: "Tailwind", level: 70 },
   { name: "Laravel", level: 85 },
-  { name: "Nest.js", level: 60 },
+  { name: "Express.js", level: 85 },
 ];
 
 function Skills() {
